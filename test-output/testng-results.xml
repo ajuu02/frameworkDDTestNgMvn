@@ -1,70 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52389" started-at="2016-09-11T01:23:20Z" finished-at="2016-09-11T01:24:13Z">
+  <suite name="Default suite" duration-ms="27886" started-at="2016-09-11T18:10:58Z" finished-at="2016-09-11T18:11:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52389" started-at="2016-09-11T01:23:20Z" finished-at="2016-09-11T01:24:13Z">
+    <test name="Default test" duration-ms="27886" started-at="2016-09-11T18:10:58Z" finished-at="2016-09-11T18:11:26Z">
       <class name="testCases.DemoTestA">
-        <test-method status="FAIL" signature="A1()[pri:0, instance:testCases.DemoTestA@1f3ddb1]" name="A1" duration-ms="52279" started-at="2016-09-11T06:53:20Z" finished-at="2016-09-11T06:54:13Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'Ajay-PC', ip: '192.168.0.41', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
-Driver info: driver.version: FirefoxDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'Ajay-PC', ip: '192.168.0.41', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
-	at base.Base.openBrowser(Base.java:33)
-	at testCases.DemoTestA.A1(DemoTestA.java:13)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
-	... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="A1()[pri:0, instance:testCases.DemoTestA@17f23d9]" name="A1" duration-ms="24301" started-at="2016-09-11T23:40:58Z" finished-at="2016-09-11T23:41:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- A1 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testCases.DemoTestA@17f23d9]" name="quit" is-config="true" duration-ms="1201" started-at="2016-09-11T23:41:22Z" finished-at="2016-09-11T23:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="A2()[pri:0, instance:testCases.DemoTestA@17f23d9]" name="A2" duration-ms="2229" started-at="2016-09-11T23:41:24Z" finished-at="2016-09-11T23:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A2 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testCases.DemoTestA@17f23d9]" name="quit" is-config="true" duration-ms="129" started-at="2016-09-11T23:41:26Z" finished-at="2016-09-11T23:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
       </class> <!-- testCases.DemoTestA -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

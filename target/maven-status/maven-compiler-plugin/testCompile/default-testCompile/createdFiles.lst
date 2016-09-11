@@ -1,1 +1,4 @@
-SelWeb\DDTestFramework\AppTest.class
+testCases\DemoTestA.class
+testCases\DemoTestC.class
+testCases\DemoTestB.class
+base\Base.class
